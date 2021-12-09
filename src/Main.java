@@ -14,6 +14,6 @@ public class Main {
         Instance myHouse = dataset.lastInstance();
         double price = model.classifyInstance(myHouse);
         System.out.println("-------------------------");
-        System.out.println("PRECTING THE PRICE : " + price);
+        System.out.println("PREDICTING THE PRICE : " + price);
     }
 }
